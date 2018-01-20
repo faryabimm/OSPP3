@@ -1,0 +1,75 @@
+\documentclass{article}
+
+\usepackage{listings}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{xepersian}
+\usepackage{ulem}
+
+
+\settextfont{XB Zar}
+\setlatintextfont{XB Zar}
+
+
+\makeatletter
+\let\@@scshape=\scshape
+\renewcommand{\scshape}{%
+  \ifnum\strcmp{\f@series}{bx}=\z@
+    \usefont{T1}{cmr}{bx}{sc}%
+  \else
+    \ifnum\strcmp{\f@shape}{it}=\z@
+      \fontshape{scsl}\selectfont
+    \else
+      \@@scshape
+    \fi
+  \fi}
+\makeatother
+
+\title{
+مستند فاز سوم پروژه
+\\
+\vspace{4mm}
+سیستم‌های عامل
+\\
+\vspace{2mm}
+دکتر جلیلی
+}
+
+\author{
+محمدحسین اعلمی
+\hspace{1cm}
+۹۴۱۰۴۴۰۱
+\\
+محمدمهدی فاریابی
+\hspace{1cm}
+۹۳۱۰۱۹۵۱
+}
+
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{مقدمه}
+
+این مستند گزارش انجام فاز سوم پروژه درس سیستم‌های عامل به منظور آشنایی با زمان‌بندی پردازه‌ها، مدیریت حافظه و پیاده‌سازی یک شل نمونه است. تمامی عملیات‌های ذکر‌شده در مستند روی سیستم‌عامل
+\lr{Ubuntu 16.04}
+پیاده و تست‌ شده‌اند.
+
+\section*{گام اول - زمان‌بندی پردازه}
+
+
+
+\subsection*{برش‌های زمانی}
+
+در بخش اول گام اول این فاز اطلاعات مربوط به برش‌های زمانی زمان‌بند هسته را از فایل‌های هسته استخراج می‌کنیم.
+
+\begin{thebibliography}{9}
+
+\latin
+\bibitem{1}
+\url{https://www.qemu.org/}
+\end{thebibliography}
+
+\end{document}
