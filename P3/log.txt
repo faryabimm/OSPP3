@@ -1,0 +1,12 @@
+CMD: pwd
+RETVAL: 0
+CMD: cd ../../..
+CMD: pwd
+RETVAL: 0
+CMD: ls
+RETVAL: 0
+CMD: cd @
+CMD: help
+CMD: echo "Hello from Dragon Shell! :-)"
+RETVAL: 0
+CMD: exit

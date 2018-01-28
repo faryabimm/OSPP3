@@ -1,0 +1,22 @@
+diff -uNr old/init/main.c new/init/main.c
+--- old/init/main.c	2018-01-22 05:14:47.000000000 +0330
++++ new/init/main.c	2018-01-23 04:47:40.752855947 +0330
+@@ -89,6 +89,7 @@
+ #include <linux/io.h>
+ #include <linux/cache.h>
+ #include <linux/rodata_test.h>
++#include <uapi/linux/sched/types.h>
+ 
+ #include <asm/io.h>
+ #include <asm/bugs.h>
+@@ -994,8 +995,10 @@
+ 
+ static int __ref kernel_init(void *unused)
+ {
++	struct sched_param param = { .sched_priority = MAX_RT_PRIO - 1 };
+ 	int ret;
+ 
++	sched_setscheduler_nocheck(current, SCHED_FIFO, &param);
+ 	kernel_init_freeable();
+ 	/* need to finish all async __init code before freeing the memory */
+ 	async_synchronize_full();
