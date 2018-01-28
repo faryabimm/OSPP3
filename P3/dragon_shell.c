@@ -67,10 +67,10 @@ void pars_command_args(char *argv[], char **lineptr, char *delimiter, int *argum
     }
 }
 void print_prepend(char *user_name, char *host_name) {
-    if (username != NULL) {
+    if (user_name != NULL) {
         fprintf(stdout, "%s", user_name);    
     }
-    if (hostname != NULL) {
+    if (host_name != NULL) {
         fprintf(stdout, "@%s", host_name);
     }
     fprintf(stdout, " $ ");
