@@ -4,7 +4,7 @@ script:
   - export REPO_ROOT="/home/travis/build/faryabimm/OSPP3"
   - echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
   - cd $REPO_ROOT/P3/
-  - g++ dragon_shell.c -lpthread
+  - gcc dragon_shell.c -lpthread
   - ls -la
   - echo "DONE -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
   - echo "START -----> testing phase 3 part 2 - compiling and testing kernel module"
