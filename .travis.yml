@@ -2,6 +2,11 @@ language: c
 sudo: true
 script:
   - export REPO_ROOT="/home/travis/build/faryabimm/OSPP3"
+  - echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
+  - cd $REPO_ROOT/P3/
+  - g++ dragon_shell.c -lpthread
+  - ls -la
+  - echo "DONE -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
   - echo "START -----> testing phase 3 part 2 - compiling and testing kernel module"
   - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   - sudo apt update
@@ -22,11 +27,6 @@ script:
   - sudo rmmod vmem
   - sudo lsmod
   - echo "DONE -----> testing phase 3 part 2 - compiling and testing kernel module"
-  - echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
-  - cd $REPO_ROOT/P3/
-  - g++ dragon_shell.c -lpthread
-  - ls -la
-  - echo "DONE -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
 
 after_success:
   - echo success
