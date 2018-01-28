@@ -1,0 +1,32 @@
+language: c
+sudo: true
+script:
+  - export REPO_ROOT="/home/travis/build/faryabimm/OSPP3"
+  - echo "START -----> testing phase 3 part 2 - compiling and testing kernel module"
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - sudo apt update
+  - sudo apt-get install linux-headers-$(uname -r)
+  - sudo apt-get install build-essential fakeroot
+  - sudo apt-get install gcc-5 g++-5
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /usr/bin/g++ g++ /usr/bin/g++-5
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 1
+  - cd $REPO_ROOT/P2/linux/
+  - sudo make clean
+  - sudo make
+  - sudo lsmod
+  - sudo insmod vmem.ko
+  - sudo lsmod
+  - sleep 20s
+  - sudo dmesg | tail -50
+  - sudo modinfo vmem.ko
+  - sudo rmmod vmem
+  - sudo lsmod
+  - echo "DONE -----> testing phase 3 part 2 - compiling and testing kernel module"
+  - echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
+  - cd $REPO_ROOT/P3/
+  - gcc -lpthread dragon_shell.c -o dsh
+  - ls -la
+  - echo "DONE -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
+
+after_success:
+  - echo success
