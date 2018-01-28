@@ -67,8 +67,13 @@ void pars_command_args(char *argv[], char **lineptr, char *delimiter, int *argum
     }
 }
 void print_prepend(char *user_name, char *host_name) {
-    fprintf(stdout, "%s@%s ", user_name, host_name);
-    fprintf(stdout, "$ ");
+    if (username != NULL) {
+        fprintf(stdout, "%s", user_name);    
+    }
+    if (hostname != NULL) {
+        fprintf(stdout, "@%s", host_name);
+    }
+    fprintf(stdout, " $ ");
 }
 void get_args(int argc, char *argv[], const char **log_file_name, const char **user_name, const char **host_name,
               char **bin_path, int *other_bin_path, int *time_interval) {
