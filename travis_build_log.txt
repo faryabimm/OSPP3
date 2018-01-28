@@ -1,0 +1,1113 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 158e02b6-fafd-422d-b5ee-bb7b22f79c34@1.production-1-worker-org-b-4-gce
+version: v3.4.0 https://github.com/travis-ci/worker/tree/ce0440bc30c289a49a9b0c21e4e1e6f7d7825101
+instance: travis-job-86c646c8-b860-402a-8d87-cdc3d19b2a92 travis-ci-garnet-trusty-1512502259-986baf0 (via amqp)
+startup: 21.727837328s
+travis_fold:end:worker_info[0Kmode of ‘/usr/local/clang-5.0.0/bin’ changed from 0777 (rwxrwxrwx) to 0775 (rwxrwxr-x)
+travis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: c
+Build group: stable
+Build dist: trusty
+Build id: 334287928
+Job id: 334287929
+Runtime kernel version: 4.4.0-101-generic
+travis-build version: cf6d29c9c
+[34m[1mBuild image provisioning date and time[0m
+Tue Dec  5 19:58:13 UTC 2017
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04.5 LTS
+Release:	14.04
+Codename:	trusty
+[34m[1mCookbooks Version[0m
+7c2c6a6 https://github.com/travis-ci/travis-cookbooks/tree/7c2c6a6
+[34m[1mgit version[0m
+git version 2.15.1
+[34m[1mbash version[0m
+GNU bash, version 4.3.11(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+[34m[1mdocker version[0m
+Client:
+ Version:      17.09.0-ce
+ API version:  1.32
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:42:38 2017
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:      17.09.0-ce
+ API version:  1.32 (minimum version 1.12)
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:41:20 2017
+ OS/Arch:      linux/amd64
+ Experimental: false
+[34m[1mclang version[0m
+clang version 5.0.0 (tags/RELEASE_500/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/clang-5.0.0/bin
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.4.6
+[34m[1mshfmt version[0m
+v2.0.0
+[34m[1mccache version[0m
+ccache version 3.1.9
+
+Copyright (C) 2002-2007 Andrew Tridgell
+Copyright (C) 2009-2011 Joel Rosdahl
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+[34m[1mcmake version[0m
+cmake version 3.9.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[34m[1mheroku version[0m
+heroku-cli/6.14.39-addc925 (linux-x64) node-v9.2.0
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.7.7-10 2017-07-31 Q16 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.2
+[34m[1mmercurial version[0m
+Mercurial Distributed SCM (version 4.2.2)
+(see https://mercurial-scm.org for more information)
+
+Copyright (C) 2005-2017 Matt Mackall and others
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.6.33, for debian-linux-gnu (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.1f 6 Jan 2014
+[34m[1mpacker version[0m
+Packer v1.0.2
+
+Your version of Packer is out of date! The latest version
+is 1.1.2. You can update by downloading from www.packer.io
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 9.6.6
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+Copyright (c) 2001-2009 by Adrian Thurston
+[34m[1msubversion version[0m
+svn, version 1.8.8 (r1568071)
+   compiled Aug 10 2017, 17:20:39 on x86_64-pc-linux-gnu
+
+Copyright (C) 2013 The Apache Software Foundation.
+This software consists of contributions made by many people;
+see the NOTICE file for more information.
+Subversion is open source software, see http://subversion.apache.org/
+
+The following repository access (RA) modules are available:
+
+* ra_svn : Module for accessing a repository using the svn network protocol.
+  - with Cyrus SASL authentication
+  - handles 'svn' scheme
+* ra_local : Module for accessing a repository on local disk.
+  - handles 'file' scheme
+* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
+  - using serf 1.3.3
+  - handles 'http' scheme
+  - handles 'https' scheme
+
+[34m[1msudo version[0m
+Sudo version 1.8.9p5
+Configure options: --prefix=/usr -v --with-all-insults --with-pam --with-fqdn --with-logging=syslog --with-logfac=authpriv --with-env-editor --with-editor=/usr/bin/editor --with-timeout=15 --with-password-timeout=0 --with-passprompt=[sudo] password for %p:  --without-lecture --with-tty-tickets --disable-root-mailer --enable-admin-flag --with-sendmail=/usr/sbin/sendmail --with-timedir=/var/lib/sudo --mandir=/usr/share/man --libexecdir=/usr/lib/sudo --with-sssd --with-sssd-lib=/usr/lib/x86_64-linux-gnu --with-selinux
+Sudoers policy plugin version 1.8.9p5
+Sudoers file grammar version 43
+
+Sudoers path: /etc/sudoers
+Authentication methods: 'pam'
+Syslog facility if syslog is being used for logging: authpriv
+Syslog priority to use when user authenticates successfully: notice
+Syslog priority to use when user authenticates unsuccessfully: alert
+Send mail if the user is not in sudoers
+Use a separate timestamp for each user/tty combo
+Lecture user the first time they run sudo
+Root may run sudo
+Allow some information gathering to give useful error messages
+Require fully-qualified hostnames in the sudoers file
+Visudo will honor the EDITOR environment variable
+Set the LOGNAME and USER environment variables
+Length at which to wrap log file lines (0 for no wrap): 80
+Authentication timestamp timeout: 15.0 minutes
+Password prompt timeout: 0.0 minutes
+Number of tries to enter a password: 3
+Umask to use or 0777 to use user's: 022
+Path to mail program: /usr/sbin/sendmail
+Flags for mail program: -t
+Address to send mail to: root
+Subject line for mail messages: *** SECURITY information for %h ***
+Incorrect password message: Sorry, try again.
+Path to authentication timestamp dir: /var/lib/sudo
+Default password prompt: [sudo] password for %p: 
+Default user to run commands as: root
+Value to override user's $PATH with: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+Path to the editor for use by visudo: /usr/bin/editor
+When to require a password for 'list' pseudocommand: any
+When to require a password for 'verify' pseudocommand: all
+File descriptors >= 3 will be closed before executing a command
+Environment variables to check for sanity:
+	TZ
+	TERM
+	LINGUAS
+	LC_*
+	LANGUAGE
+	LANG
+	COLORTERM
+Environment variables to remove:
+	RUBYOPT
+	RUBYLIB
+	PYTHONUSERBASE
+	PYTHONINSPECT
+	PYTHONPATH
+	PYTHONHOME
+	TMPPREFIX
+	ZDOTDIR
+	READNULLCMD
+	NULLCMD
+	FPATH
+	PERL5DB
+	PERL5OPT
+	PERL5LIB
+	PERLLIB
+	PERLIO_DEBUG 
+	JAVA_TOOL_OPTIONS
+	SHELLOPTS
+	GLOBIGNORE
+	PS4
+	BASH_ENV
+	ENV
+	TERMCAP
+	TERMPATH
+	TERMINFO_DIRS
+	TERMINFO
+	_RLD*
+	LD_*
+	PATH_LOCALE
+	NLSPATH
+	HOSTALIASES
+	RES_OPTIONS
+	LOCALDOMAIN
+	CDPATH
+	IFS
+Environment variables to preserve:
+	JAVA_HOME
+	TRAVIS
+	CI
+	DEBIAN_FRONTEND
+	XAUTHORIZATION
+	XAUTHORITY
+	PS2
+	PS1
+	PATH
+	LS_COLORS
+	KRB5CCNAME
+	HOSTNAME
+	HOME
+	DISPLAY
+	COLORS
+Locale to use while parsing sudoers: C
+Directory in which to store input/output logs: /var/log/sudo-io
+File in which to store the input/output log: %{seq}
+Add an entry to the utmp/utmpx file when allocating a pty
+PAM service name to use
+PAM service name to use for login shells
+Create a new PAM session for the command to run in
+Maximum I/O log sequence number: 0
+
+Local IP address and netmask pairs:
+	10.240.0.28/255.255.255.255
+	172.17.0.1/255.255.0.0
+
+Sudoers I/O plugin version 1.8.9p5
+[34m[1mgzip version[0m
+gzip 1.6
+Copyright (C) 2007, 2010, 2011 Free Software Foundation, Inc.
+Copyright (C) 1993 Jean-loup Gailly.
+This is free software.  You may redistribute copies of it under the terms of
+the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Jean-loup Gailly.
+[34m[1mzip version[0m
+Copyright (c) 1990-2008 Info-ZIP - Type 'zip "-L"' for software license.
+This is Zip 3.0 (July 5th 2008), by Info-ZIP.
+Currently maintained by E. Gordon.  Please send bug reports to
+the authors using the web page at www.info-zip.org; see README for details.
+
+Latest sources and executables are at ftp://ftp.info-zip.org/pub/infozip,
+as of above date; see http://www.info-zip.org/ for other sites.
+
+Compiled with gcc 4.8.2 for Unix (Linux ELF) on Oct 21 2013.
+
+Zip special compilation options:
+	USE_EF_UT_TIME       (store Universal Time)
+	BZIP2_SUPPORT        (bzip2 library version 1.0.6, 6-Sept-2010)
+	    bzip2 code and library copyright (c) Julian R Seward
+	    (See the bzip2 license for terms of use)
+	SYMLINK_SUPPORT      (symbolic links supported)
+	LARGE_FILE_SUPPORT   (can read and write large files on file system)
+	ZIP64_SUPPORT        (use Zip64 to store large files in archives)
+	UNICODE_SUPPORT      (store and read UTF-8 Unicode paths)
+	STORE_UNIX_UIDs_GIDs (store UID/GID sizes/values using new extra field)
+	UIDGID_NOT_16BIT     (old Unix 16-bit UID/GID extra field not used)
+	[encryption, version 2.91 of 05 Jan 2007] (modified for Zip 3)
+
+Encryption notice:
+	The encryption code of this program is not copyrighted and is
+	put in the public domain.  It was originally written in Europe
+	and, to the best of our knowledge, can be freely distributed
+	in both source and object forms from any country, including
+	the USA under License Exception TSU of the U.S. Export
+	Administration Regulations (section 740.13(e)) of 6 June 2002.
+
+Zip environment options:
+             ZIP:  [none]
+          ZIPOPT:  [none]
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:43:18)
+Included patches: 1-52
+Extra patches: 8.0.0056
+Modified by pkg-vim-maintainers@lists.alioth.debian.org
+Compiled by buildd@
+Huge version without GUI.  Features included (+) or not (-):
++acl             +farsi           +mouse_netterm   +syntax
++arabic          +file_in_path    +mouse_sgr       +tag_binary
++autocmd         +find_in_path    -mouse_sysmouse  +tag_old_static
+-balloon_eval    +float           +mouse_urxvt     -tag_any_white
+-browse          +folding         +mouse_xterm     -tcl
+++builtin_terms  -footer          +multi_byte      +terminfo
++byte_offset     +fork()          +multi_lang      +termresponse
++cindent         +gettext         -mzscheme        +textobjects
+-clientserver    -hangul_input    +netbeans_intg   +title
+-clipboard       +iconv           +path_extra      -toolbar
++cmdline_compl   +insert_expand   -perl            +user_commands
++cmdline_hist    +jumplist        +persistent_undo +vertsplit
++cmdline_info    +keymap          +postscript      +virtualedit
++comments        +langmap         +printer         +visual
++conceal         +libcall         +profile         +visualextra
++cryptv          +linebreak       +python          +viminfo
++cscope          +lispindent      -python3         +vreplace
++cursorbind      +listcmds        +quickfix        +wildignore
++cursorshape     +localmap        +reltime         +wildmenu
++dialog_con      -lua             +rightleft       +windows
++diff            +menu            -ruby            +writebackup
++digraphs        +mksession       +scrollbind      -X11
+-dnd             +modify_fname    +signs           -xfontset
+-ebcdic          +mouse           +smartindent     -xim
++emacs_tags      -mouseshape      -sniff           -xsmp
++eval            +mouse_dec       +startuptime     -xterm_clipboard
++ex_extra        +mouse_gpm       +statusline      -xterm_save
++extra_search    -mouse_jsbterm   -sun_workshop    -xpm
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1      
+Linking: gcc   -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,--as-needed -o vim        -lm -ltinfo -lnsl  -lselinux  -lacl -lattr -lgpm -ldl    -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions      
+[34m[1miptables version[0m
+iptables v1.4.21
+[34m[1mcurl version[0m
+curl 7.35.0 (x86_64-pc-linux-gnu) libcurl/7.35.0 OpenSSL/1.0.1f zlib/1.2.8 libidn/1.28 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.15 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.0  protocol version 31
+[34m[1mgimme version[0m
+v1.2.0
+[34m[1mnvm version[0m
+0.33.6
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.80
+[34m[1mphpenv version[0m
+rbenv 1.1.1-25-g6aa70b6
+[34m[1mrvm version[0m
+rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 56.0.2
+[34m[1mMongoDB version[0m
+MongoDB 3.4.10
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.2.24
+9.3.20
+9.4.15
+9.5.10
+9.6.6
+[34m[1mRabbitMQ Version[0m
+3.6.14
+[34m[1mRedis version[0m
+redis-server 4.0.6
+[34m[1mriak version[0m
+2.2.3
+[34m[1mPre-installed Go versions[0m
+1.7.4
+[34m[1mant version[0m
+Apache Ant(TM) version 1.9.3 compiled on April 8 2014
+[34m[1mmvn version[0m
+Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T07:58:13Z)
+Maven home: /usr/local/maven-3.5.2
+Java version: 1.8.0_151, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-8-oracle/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-98-generic", arch: "amd64", family: "unix"
+[34m[1mgradle version[0m
+
+------------------------------------------------------------
+Gradle 4.0.1
+------------------------------------------------------------
+
+Build time:   2017-07-07 14:02:41 UTC
+Revision:     38e5dc0f772daecca1d2681885d3d85414eb6826
+
+Groovy:       2.4.11
+Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+JVM:          1.8.0_151 (Oracle Corporation 25.151-b12)
+OS:           Linux 4.4.0-98-generic amd64
+
+[34m[1mlein version[0m
+Leiningen 2.8.1 on Java 1.8.0_151 Java HotSpot(TM) 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v4.8.6
+v6.12.0
+v6.12.1
+v8.9
+v8.9.1
+[34m[1mphpenv versions[0m
+  system
+  5.6
+* 5.6.32 (set by /home/travis/.phpenv/version)
+  7.0
+  7.0.25
+  7.1
+  7.1.11
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.5.2 2017-09-11 16:59:25
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.2.7
+ruby-2.3.4
+ruby-2.4.1
+travis_fold:end:system_info[0K
+removed ‘/etc/apt/sources.list.d/basho_riak.list’
+W: http://ppa.launchpad.net/couchdb/stable/ubuntu/dists/trusty/Release.gpg: Signature by key 15866BAFD9BCC4F3C1E0DFC7D69548E1C17EAB57 uses weak digest algorithm (SHA1)
+
+127.0.0.1 localhost nettuno travis vagrant
+127.0.1.1 travis-job-86c646c8-b860-402a-8d87-cdc3d19b2a92 travis-job-86c646c8-b860-402a-8d87-cdc3d19b2a92 ip4-loopback trusty64
+
+travis_fold:start:git.checkout[0Ktravis_time:start:2c6824fe[0K$ git clone --depth=50 --branch=master https://github.com/faryabimm/OSPP3.git faryabimm/OSPP3
+Cloning into 'faryabimm/OSPP3'...
+remote: Counting objects: 66, done.[K
+remote: Compressing objects:   2% (1/49)   [Kremote: Compressing objects:   4% (2/49)   [Kremote: Compressing objects:   6% (3/49)   [Kremote: Compressing objects:   8% (4/49)   [Kremote: Compressing objects:  10% (5/49)   [Kremote: Compressing objects:  12% (6/49)   [Kremote: Compressing objects:  14% (7/49)   [Kremote: Compressing objects:  16% (8/49)   [Kremote: Compressing objects:  18% (9/49)   [Kremote: Compressing objects:  20% (10/49)   [Kremote: Compressing objects:  22% (11/49)   [Kremote: Compressing objects:  24% (12/49)   [Kremote: Compressing objects:  26% (13/49)   [Kremote: Compressing objects:  28% (14/49)   [Kremote: Compressing objects:  30% (15/49)   [Kremote: Compressing objects:  32% (16/49)   [Kremote: Compressing objects:  34% (17/49)   [Kremote: Compressing objects:  36% (18/49)   [Kremote: Compressing objects:  38% (19/49)   [Kremote: Compressing objects:  40% (20/49)   [Kremote: Compressing objects:  42% (21/49)   [Kremote: Compressing objects:  44% (22/49)   [Kremote: Compressing objects:  46% (23/49)   [Kremote: Compressing objects:  48% (24/49)   [Kremote: Compressing objects:  51% (25/49)   [Kremote: Compressing objects:  53% (26/49)   [Kremote: Compressing objects:  55% (27/49)   [Kremote: Compressing objects:  57% (28/49)   [Kremote: Compressing objects:  59% (29/49)   [Kremote: Compressing objects:  61% (30/49)   [Kremote: Compressing objects:  63% (31/49)   [Kremote: Compressing objects:  65% (32/49)   [Kremote: Compressing objects:  67% (33/49)   [Kremote: Compressing objects:  69% (34/49)   [Kremote: Compressing objects:  71% (35/49)   [Kremote: Compressing objects:  73% (36/49)   [Kremote: Compressing objects:  75% (37/49)   [Kremote: Compressing objects:  77% (38/49)   [Kremote: Compressing objects:  79% (39/49)   [Kremote: Compressing objects:  81% (40/49)   [Kremote: Compressing objects:  83% (41/49)   [Kremote: Compressing objects:  85% (42/49)   [Kremote: Compressing objects:  87% (43/49)   [Kremote: Compressing objects:  89% (44/49)   [Kremote: Compressing objects:  91% (45/49)   [Kremote: Compressing objects:  93% (46/49)   [Kremote: Compressing objects:  95% (47/49)   [Kremote: Compressing objects:  97% (48/49)   [Kremote: Compressing objects: 100% (49/49)   [Kremote: Compressing objects: 100% (49/49), done.[K
+Unpacking objects:   1% (1/66)   Unpacking objects:   3% (2/66)   Unpacking objects:   4% (3/66)   Unpacking objects:   6% (4/66)   Unpacking objects:   7% (5/66)   Unpacking objects:   9% (6/66)   Unpacking objects:  10% (7/66)   Unpacking objects:  12% (8/66)   Unpacking objects:  13% (9/66)   Unpacking objects:  15% (10/66)   Unpacking objects:  16% (11/66)   Unpacking objects:  18% (12/66)   Unpacking objects:  19% (13/66)   Unpacking objects:  21% (14/66)   Unpacking objects:  22% (15/66)   Unpacking objects:  24% (16/66)   Unpacking objects:  25% (17/66)   Unpacking objects:  27% (18/66)   Unpacking objects:  28% (19/66)   Unpacking objects:  30% (20/66)   Unpacking objects:  31% (21/66)   Unpacking objects:  33% (22/66)   Unpacking objects:  34% (23/66)   Unpacking objects:  36% (24/66)   Unpacking objects:  37% (25/66)   Unpacking objects:  39% (26/66)   Unpacking objects:  40% (27/66)   Unpacking objects:  42% (28/66)   Unpacking objects:  43% (29/66)   Unpacking objects:  45% (30/66)   Unpacking objects:  46% (31/66)   Unpacking objects:  48% (32/66)   Unpacking objects:  50% (33/66)   Unpacking objects:  51% (34/66)   Unpacking objects:  53% (35/66)   Unpacking objects:  54% (36/66)   Unpacking objects:  56% (37/66)   Unpacking objects:  57% (38/66)   Unpacking objects:  59% (39/66)   Unpacking objects:  60% (40/66)   Unpacking objects:  62% (41/66)   Unpacking objects:  63% (42/66)   Unpacking objects:  65% (43/66)   Unpacking objects:  66% (44/66)   Unpacking objects:  68% (45/66)   Unpacking objects:  69% (46/66)   remote: Total 66 (delta 17), reused 48 (delta 7), pack-reused 0[K
+Unpacking objects:  71% (47/66)   Unpacking objects:  72% (48/66)   Unpacking objects:  74% (49/66)   Unpacking objects:  75% (50/66)   Unpacking objects:  77% (51/66)   Unpacking objects:  78% (52/66)   Unpacking objects:  80% (53/66)   Unpacking objects:  81% (54/66)   Unpacking objects:  83% (55/66)   Unpacking objects:  84% (56/66)   Unpacking objects:  86% (57/66)   Unpacking objects:  87% (58/66)   Unpacking objects:  89% (59/66)   Unpacking objects:  90% (60/66)   Unpacking objects:  92% (61/66)   Unpacking objects:  93% (62/66)   Unpacking objects:  95% (63/66)   Unpacking objects:  96% (64/66)   Unpacking objects:  98% (65/66)   Unpacking objects: 100% (66/66)   Unpacking objects: 100% (66/66), done.
+
+travis_time:end:2c6824fe:start=1517119754740788675,finish=1517119755524032426,duration=783243751[0K$ cd faryabimm/OSPP3
+$ git checkout -qf 9ef4b9d5bc4f2523858983ea4a386264c52903f1
+travis_fold:end:git.checkout[0K$ export CC=gcc
+$ gcc --version
+gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+travis_time:start:091f5ffc[0K$ export REPO_ROOT="/home/travis/build/faryabimm/OSPP3"
+
+travis_time:end:091f5ffc:start=1517119755553521730,finish=1517119755557364531,duration=3842801[0K
+[32;1mThe command "export REPO_ROOT="/home/travis/build/faryabimm/OSPP3"" exited with 0.[0m
+travis_time:start:02c2128c[0K$ echo "START -----> testing phase 3 part 2 - compiling and testing kernel module"
+START -----> testing phase 3 part 2 - compiling and testing kernel module
+
+travis_time:end:02c2128c:start=1517119755561984322,finish=1517119755565583854,duration=3599532[0K
+[32;1mThe command "echo "START -----> testing phase 3 part 2 - compiling and testing kernel module"" exited with 0.[0m
+travis_time:start:03c357ea[0K$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+gpg: keyring `/tmp/tmpq3l73ttv/secring.gpg' created
+gpg: keyring `/tmp/tmpq3l73ttv/pubring.gpg' created
+gpg: requesting key BA9EF27F from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpq3l73ttv/trustdb.gpg: trustdb created
+gpg: key BA9EF27F: public key "Launchpad Toolchain builds" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+
+travis_time:end:03c357ea:start=1517119755570342979,finish=1517119757078628409,duration=1508285430[0K
+[32;1mThe command "sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y" exited with 0.[0m
+travis_time:start:1ff6d700[0K$ sudo apt update
+[33m0% [Working][0m            Ign:1 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty InRelease
+[33m0% [Connecting to security.ubuntu.com (91.189.88.161)] [Connecting to www.apach[0m                                                                               Hit:2 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty-updates InRelease
+[33m0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.88.161)] [C[0m                                                                               Hit:3 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty-backports InRelease
+[33m0% [Connecting to security.ubuntu.com (91.189.88.161)] [Connecting to www.apach[0m[33m0% [2 InRelease gpgv 65.9 kB] [Waiting for headers] [Connecting to security.ubu[0m                                                                               Hit:4 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty Release
+[33m0% [2 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.161[0m                                                                               Ign:5 http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 InRelease
+[33m0% [2 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.161[0m                                                                               Ign:6 http://dl.google.com/linux/chrome/deb stable InRelease
+[33m0% [2 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.161[0m                                                                               Hit:7 http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 Release
+[33m0% [2 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.161[0m[33m0% [2 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.161[0m                                                                               Hit:9 http://dl.google.com/linux/chrome/deb stable Release
+[33m0% [Connecting to heroku-toolbelt.s3.amazonaws.com] [2 InRelease gpgv 65.9 kB] [0m[33m0% [Connecting to heroku-toolbelt.s3.amazonaws.com] [2 InRelease gpgv 65.9 kB] [0m[33m0% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting f[0m                                                                               Ign:8 http://toolbelt.heroku.com/ubuntu ./ InRelease
+[33m0% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting f[0m[33m0% [Waiting for headers] [3 InRelease gpgv 65.9 kB] [Waiting for headers] [Wait[0m                                                                               Hit:11 http://security.ubuntu.com/ubuntu trusty-security InRelease
+[33m0% [Waiting for headers] [3 InRelease gpgv 65.9 kB] [Waiting for headers] [Wait[0m[33m0% [Waiting for headers] [3 InRelease gpgv 65.9 kB] [Waiting for headers] [Wait[0m                                                                               Hit:13 http://ppa.launchpad.net/chris-lea/redis-server/ubuntu trusty InRelease
+[33m0% [Waiting for headers] [Waiting for headers] [3 InRelease gpgv 65.9 kB] [Conn[0m                                                                               Hit:12 http://toolbelt.heroku.com/ubuntu ./ Release
+[33m0% [Waiting for headers] [3 InRelease gpgv 65.9 kB] [Connecting to ppa.launchpa[0m                                                                               Hit:14 http://apt.postgresql.org/pub/repos/apt trusty-pgdg InRelease
+[33m0% [Waiting for headers] [3 InRelease gpgv 65.9 kB] [Connecting to ppa.launchpa[0m                                                                               Get:10 http://dl.bintray.com/apache/cassandra 39x InRelease [3,168 B]
+[33m                                                                               0% [3 InRelease gpgv 65.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                                              Hit:15 https://download.docker.com/linux/ubuntu trusty InRelease
+[33m0% [3 InRelease gpgv 65.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                              0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [Release.gpg gpgv 58.5 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                                              Hit:16 https://dl.hhvm.com/ubuntu trusty InRelease
+[33m                                                                              0% [Release.gpg gpgv 58.5 kB] [Waiting for headers][0m[33m                                                   0% [Waiting for headers][0m[33m0% [Release.gpg gpgv 2,495 B] [Waiting for headers][0m[33m                                                   0% [Waiting for headers][0m[33m0% [Release.gpg gpgv 1,189 B] [Waiting for headers][0m                                                   Ign:19 http://ppa.launchpad.net/couchdb/stable/ubuntu trusty InRelease
+[33m0% [Release.gpg gpgv 1,189 B] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                              0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [11 InRelease gpgv 65.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [13 InRelease gpgv 15.4 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Waiting for headers][0m[33m0% [Release.gpg gpgv 1,609 B] [Waiting for headers][0m[33m                                                   0% [Waiting for headers][0m[33m0% [14 InRelease gpgv 56.4 kB] [Waiting for headers][0m                                                    Hit:22 http://ppa.launchpad.net/git-core/ppa/ubuntu trusty InRelease
+[33m                                                    0% [14 InRelease gpgv 56.4 kB][0m[33m0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [10 InRelease gpgv 3,168 B] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [15 InRelease gpgv 26.5 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Waiting for headers][0m[33m0% [16 InRelease gpgv 2,411 B] [Waiting for headers][0m                                                    Hit:23 http://ppa.launchpad.net/openjdk-r/ppa/ubuntu trusty InRelease
+[33m0% [16 InRelease gpgv 2,411 B] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [22 InRelease gpgv 15.4 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [23 InRelease gpgv 15.5 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                   Hit:24 https://packagecloud.io/computology/apt-backport/ubuntu trusty InRelease
+[33m                                                   0% [Waiting for headers][0m[33m0% [24 InRelease gpgv 23.7 kB] [Waiting for headers][0m                                                    Hit:25 http://ppa.launchpad.net/pollinate/ppa/ubuntu trusty InRelease
+[33m                                                    0% [24 InRelease gpgv 23.7 kB][0m[33m0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m0% [25 InRelease gpgv 15.4 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                   Hit:26 https://packagecloud.io/github/git-lfs/ubuntu trusty InRelease
+[33m                                                   0% [Waiting for headers][0m[33m0% [26 InRelease gpgv 23.2 kB] [Waiting for headers][0m[33m                                                    0% [Waiting for headers][0m                        Get:27 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty InRelease [15.5 kB]
+[33m0% [27 InRelease 12.6 kB/15.5 kB 81%][0m                                     Hit:28 https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu trusty InRelease
+[33m0% [27 InRelease 12.6 kB/15.5 kB 81%][0m[33m0% [28 InRelease gpgv 23.7 kB] [27 InRelease 12.6 kB/15.5 kB 81%][0m[33m                                                                 0% [27 InRelease 12.6 kB/15.5 kB 81%][0m[33m                                     0% [Working][0m[33m0% [27 InRelease gpgv 15.5 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                   Hit:29 http://ppa.launchpad.net/webupd8team/java/ubuntu trusty InRelease
+[33m                                                   0% [Working][0m[33m0% [29 InRelease gpgv 15.5 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                   Hit:30 http://ppa.launchpad.net/couchdb/stable/ubuntu trusty Release
+[33m                                                   26% [Working][0m[33m26% [Release.gpg gpgv 15.1 kB] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                               27% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                    Get:32 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 Packages [82.3 kB]
+[33m                                                    32% [32 Packages 12.5 kB/82.3 kB 15%][0m[33m52% [32 Packages 62.8 kB/82.3 kB 76%][0m[33m57% [32 Packages 75.6 kB/82.3 kB 92%][0m[33m                                     60% [Working][0m[33m60% [32 Packages store 0 B] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                            60% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                    Get:33 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main i386 Packages [80.8 kB]
+[33m                                                    62% [33 Packages 4,809 B/80.8 kB 6%][0m[33m                                    92% [Working][0m[33m92% [33 Packages store 0 B] [Connecting to ppa.launchpad.net (91.189.95.83)][0m[33m                                                                            92% [Connecting to ppa.launchpad.net (91.189.95.83)][0m                                                    Get:34 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main Translation-en [19.2 kB]
+[33m                                                    97% [34 Translation-en 12.6 kB/19.2 kB 66%][0m[33m                                           100% [Working][0m[33m100% [34 Translation-en store 0 B][0m[33m                                  100% [Working][0m              Fetched 201 kB in 3s (54.1 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 6%Reading package lists... 6%Reading package lists... 12%Reading package lists... 12%Reading package lists... 12%Reading package lists... 12%Reading package lists... 12%Reading package lists... 12%Reading package lists... 36%Reading package lists... 36%Reading package lists... 47%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 71%Reading package lists... 71%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 79%Reading package lists... 79%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 86%Reading package lists... 86%Reading package lists... 89%Reading package lists... 89%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+80 packages can be upgraded. Run 'apt list --upgradable' to see them.
+W: http://ppa.launchpad.net/couchdb/stable/ubuntu/dists/trusty/Release.gpg: Signature by key 15866BAFD9BCC4F3C1E0DFC7D69548E1C17EAB57 uses weak digest algorithm (SHA1)
+
+travis_time:end:1ff6d700:start=1517119757083603615,finish=1517119762657143923,duration=5573540308[0K
+[32;1mThe command "sudo apt update" exited with 0.[0m
+travis_time:start:0099b646[0K$ sudo apt-get install linux-headers-$(uname -r)
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  linux-headers-4.4.0-101
+The following NEW packages will be installed:
+  linux-headers-4.4.0-101 linux-headers-4.4.0-101-generic
+0 upgraded, 2 newly installed, 0 to remove and 80 not upgraded.
+Need to get 10.7 MB of archives.
+After this operation, 87.5 MB of additional disk space will be used.
+0% [Working]            Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty-updates/main amd64 linux-headers-4.4.0-101 all 4.4.0-101.124~14.04.1 [9,916 kB]
+0% [1 linux-headers-4.4.0-101 13.7 kB/9,916 kB 0%]                                                  84% [Working]             Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty-updates/main amd64 linux-headers-4.4.0-101-generic amd64 4.4.0-101.124~14.04.1 [784 kB]
+84% [2 linux-headers-4.4.0-101-generic 12.3 kB/784 kB 2%]                                                         100% [Working]              Fetched 10.7 MB in 0s (65.1 MB/s)
+Selecting previously unselected package linux-headers-4.4.0-101.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 93696 files and directories currently installed.)
+Preparing to unpack .../linux-headers-4.4.0-101_4.4.0-101.124~14.04.1_all.deb ...
+Unpacking linux-headers-4.4.0-101 (4.4.0-101.124~14.04.1) ...
+Selecting previously unselected package linux-headers-4.4.0-101-generic.
+Preparing to unpack .../linux-headers-4.4.0-101-generic_4.4.0-101.124~14.04.1_amd64.deb ...
+Unpacking linux-headers-4.4.0-101-generic (4.4.0-101.124~14.04.1) ...
+Setting up linux-headers-4.4.0-101 (4.4.0-101.124~14.04.1) ...
+Setting up linux-headers-4.4.0-101-generic (4.4.0-101.124~14.04.1) ...
+
+travis_time:end:0099b646:start=1517119762661692278,finish=1517119768434122604,duration=5772430326[0K
+[32;1mThe command "sudo apt-get install linux-headers-$(uname -r)" exited with 0.[0m
+travis_time:start:1c6a08c4[0K$ sudo apt-get install build-essential fakeroot
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+build-essential is already the newest version (11.6ubuntu6).
+The following NEW packages will be installed:
+  fakeroot libfakeroot
+0 upgraded, 2 newly installed, 0 to remove and 80 not upgraded.
+Need to get 80.4 kB of archives.
+After this operation, 415 kB of additional disk space will be used.
+0% [Working]            Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty/main amd64 libfakeroot amd64 1.20-3ubuntu2 [25.4 kB]
+8% [1 libfakeroot 8,044 B/25.4 kB 32%]                                      35% [Working]             Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu trusty/main amd64 fakeroot amd64 1.20-3ubuntu2 [55.0 kB]
+46% [2 fakeroot 10.9 kB/55.0 kB 20%]                                    100% [Working]              Fetched 80.4 kB in 0s (7,210 kB/s)
+Selecting previously unselected package libfakeroot:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120454 files and directories currently installed.)
+Preparing to unpack .../libfakeroot_1.20-3ubuntu2_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.20-3ubuntu2) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../fakeroot_1.20-3ubuntu2_amd64.deb ...
+Unpacking fakeroot (1.20-3ubuntu2) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up libfakeroot:amd64 (1.20-3ubuntu2) ...
+Setting up fakeroot (1.20-3ubuntu2) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+
+travis_time:end:1c6a08c4:start=1517119768439038692,finish=1517119770237761308,duration=1798722616[0K
+[32;1mThe command "sudo apt-get install build-essential fakeroot" exited with 0.[0m
+travis_time:start:0c7d8edb[0K$ sudo apt-get install gcc-5 g++-5
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  cpp-5 gcc-5-base gcc-7-base libasan2 libatomic1 libcc1-0 libcilkrts5
+  libgcc-5-dev libgcc1 libgomp1 libisl15 libitm1 liblsan0 libmpfr4 libmpx0
+  libquadmath0 libstdc++-5-dev libstdc++6 libtsan0 libubsan0
+Suggested packages:
+  gcc-5-locales g++-5-multilib gcc-5-doc libstdc++6-5-dbg gcc-5-multilib
+  libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan2-dbg
+  liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libmpx0-dbg
+  libquadmath0-dbg libstdc++-5-doc
+The following NEW packages will be installed:
+  cpp-5 g++-5 gcc-5 gcc-5-base gcc-7-base libasan2 libcc1-0 libcilkrts5
+  libgcc-5-dev libisl15 liblsan0 libmpx0 libstdc++-5-dev libubsan0
+The following packages will be upgraded:
+  libatomic1 libgcc1 libgomp1 libitm1 libmpfr4 libquadmath0 libstdc++6
+  libtsan0
+8 upgraded, 14 newly installed, 0 to remove and 72 not upgraded.
+Need to get 24.4 MB of archives.
+After this operation, 93.9 MB of additional disk space will be used.
+0% [Working]            Get:1 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 gcc-7-base amd64 7.2.0-1ubuntu1~14.04 [17.6 kB]
+0% [1 gcc-7-base 12.6 kB/17.6 kB 72%]                                     1% [Working]            Get:2 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libgcc1 amd64 1:7.2.0-1ubuntu1~14.04 [39.4 kB]
+1% [2 libgcc1 12.6 kB/39.4 kB 32%]                                  2% [Working]            Get:3 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libstdc++6 amd64 7.2.0-1ubuntu1~14.04 [305 kB]
+2% [3 libstdc++6 1,032 B/305 kB 0%]3% [3 libstdc++6 202 kB/305 kB 66%]                                   4% [Working]            Get:4 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 gcc-5-base amd64 5.4.1-2ubuntu1~14.04 [17.0 kB]
+4% [4 gcc-5-base 12.6 kB/17.0 kB 74%]                                     5% [Working]            Get:5 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libasan2 amd64 5.4.1-2ubuntu1~14.04 [261 kB]
+5% [5 libasan2 7,472 B/261 kB 3%]5% [5 libasan2 176 kB/261 kB 67%]                                 7% [Working]            Get:6 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libatomic1 amd64 7.2.0-1ubuntu1~14.04 [9,012 B]
+7% [6 libatomic1 2,323 B/9,012 B 26%]                                     8% [Working]            Get:7 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libcc1-0 amd64 7.2.0-1ubuntu1~14.04 [38.0 kB]
+8% [7 libcc1-0 12.6 kB/38.0 kB 33%]                                   9% [Working]            Get:8 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libcilkrts5 amd64 7.2.0-1ubuntu1~14.04 [42.2 kB]
+9% [8 libcilkrts5 1,034 B/42.2 kB 2%]                                     10% [Working]             Get:9 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libgomp1 amd64 7.2.0-1ubuntu1~14.04 [75.8 kB]
+10% [9 libgomp1 12.6 kB/75.8 kB 17%]                                    11% [Working]             Get:10 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libisl15 amd64 0.15-3~14.04 [507 kB]
+11% [10 libisl15 7,472 B/507 kB 1%]11% [10 libisl15 176 kB/507 kB 35%]12% [10 libisl15 453 kB/507 kB 89%]                                   13% [Working]             Get:11 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libitm1 amd64 7.2.0-1ubuntu1~14.04 [27.5 kB]
+13% [11 libitm1 9,602 B/27.5 kB 35%]                                    14% [Working]             Get:12 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 liblsan0 amd64 7.2.0-1ubuntu1~14.04 [125 kB]
+14% [12 liblsan0 12.6 kB/125 kB 10%]                                    16% [Working]             Get:13 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libmpfr4 amd64 3.1.3-1~14.04 [178 kB]
+16% [13 libmpfr4 11.3 kB/178 kB 6%]                           238 kB/s 1min 36s16% [13 libmpfr4 176 kB/178 kB 99%]                           238 kB/s 1min 35s17% [Working]                                                 238 kB/s 1min 35s                                                                               Get:14 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libmpx0 amd64 5.4.1-2ubuntu1~14.04 [9,800 B]
+17% [14 libmpx0 9,800 B/9,800 B 100%]                         238 kB/s 1min 35s18% [Working]                                                 238 kB/s 1min 35s                                                                               Get:15 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libquadmath0 amd64 7.2.0-1ubuntu1~14.04 [132 kB]
+18% [15 libquadmath0 12.6 kB/132 kB 10%]                      238 kB/s 1min 35s19% [Working]                                                 238 kB/s 1min 34s                                                                               Get:16 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libtsan0 amd64 7.2.0-1ubuntu1~14.04 [271 kB]
+20% [16 libtsan0 12.6 kB/271 kB 5%]                           238 kB/s 1min 34s20% [16 libtsan0 176 kB/271 kB 65%]                           238 kB/s 1min 34s21% [Working]                                                 238 kB/s 1min 33s                                                                               Get:17 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libubsan0 amd64 7.2.0-1ubuntu1~14.04 [118 kB]
+21% [17 libubsan0 12.6 kB/118 kB 11%]                         238 kB/s 1min 33s23% [Working]                                                 238 kB/s 1min 33s                                                                               Get:18 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 cpp-5 amd64 5.4.1-2ubuntu1~14.04 [5,842 kB]
+23% [18 cpp-5 3,606 B/5,842 kB 0%]                            238 kB/s 1min 33s23% [18 cpp-5 180 kB/5,842 kB 3%]                             238 kB/s 1min 32s24% [18 cpp-5 476 kB/5,842 kB 8%]                             238 kB/s 1min 31s25% [18 cpp-5 851 kB/5,842 kB 15%]                            238 kB/s 1min 29s27% [18 cpp-5 1,297 kB/5,842 kB 22%]                          238 kB/s 1min 27s29% [18 cpp-5 1,898 kB/5,842 kB 32%]                          238 kB/s 1min 25s30% [18 cpp-5 2,371 kB/5,842 kB 41%]                          238 kB/s 1min 23s32% [18 cpp-5 2,808 kB/5,842 kB 48%]                               553 kB/s 35s33% [18 cpp-5 3,202 kB/5,842 kB 55%]                               553 kB/s 34s34% [18 cpp-5 3,619 kB/5,842 kB 62%]                               553 kB/s 33s36% [18 cpp-5 4,047 kB/5,842 kB 69%]                               553 kB/s 32s37% [18 cpp-5 4,427 kB/5,842 kB 76%]                               553 kB/s 32s38% [18 cpp-5 4,765 kB/5,842 kB 82%]                               553 kB/s 31s39% [18 cpp-5 5,059 kB/5,842 kB 87%]                               553 kB/s 30s40% [18 cpp-5 5,340 kB/5,842 kB 91%]                               553 kB/s 30s41% [18 cpp-5 5,636 kB/5,842 kB 96%]                               553 kB/s 29s43% [Working]                                                      553 kB/s 29s                                                                               Get:19 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libgcc-5-dev amd64 5.4.1-2ubuntu1~14.04 [2,227 kB]
+43% [19 libgcc-5-dev 12.6 kB/2,227 kB 1%]                          553 kB/s 29s43% [19 libgcc-5-dev 197 kB/2,227 kB 9%]                           553 kB/s 29s44% [19 libgcc-5-dev 514 kB/2,227 kB 23%]                          553 kB/s 28s46% [19 libgcc-5-dev 912 kB/2,227 kB 41%]                          648 kB/s 23s47% [19 libgcc-5-dev 1,272 kB/2,227 kB 57%]                        648 kB/s 23s48% [19 libgcc-5-dev 1,651 kB/2,227 kB 74%]                        648 kB/s 22s49% [19 libgcc-5-dev 2,061 kB/2,227 kB 93%]                        648 kB/s 22s51% [Working]                                                      648 kB/s 21s                                                                               Get:20 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 gcc-5 amd64 5.4.1-2ubuntu1~14.04 [6,596 kB]
+51% [20 gcc-5 7,470 B/6,596 kB 0%]                                 648 kB/s 21s52% [20 gcc-5 217 kB/6,596 kB 3%]                                  648 kB/s 21s52% [20 gcc-5 435 kB/6,596 kB 7%]                                  648 kB/s 21s53% [20 gcc-5 725 kB/6,596 kB 11%]                                 648 kB/s 20s54% [20 gcc-5 971 kB/6,596 kB 15%]                                 648 kB/s 20s55% [20 gcc-5 1,213 kB/6,596 kB 18%]                               648 kB/s 19s56% [20 gcc-5 1,471 kB/6,596 kB 22%]                               648 kB/s 19s57% [20 gcc-5 1,737 kB/6,596 kB 26%]                               648 kB/s 19s57% [20 gcc-5 1,969 kB/6,596 kB 30%]                               542 kB/s 22s58% [20 gcc-5 2,201 kB/6,596 kB 33%]                               542 kB/s 22s59% [20 gcc-5 2,457 kB/6,596 kB 37%]                               542 kB/s 21s60% [20 gcc-5 2,728 kB/6,596 kB 41%]                               542 kB/s 21s61% [20 gcc-5 3,009 kB/6,596 kB 46%]                               542 kB/s 20s62% [20 gcc-5 3,292 kB/6,596 kB 50%]                               542 kB/s 19s63% [20 gcc-5 3,580 kB/6,596 kB 54%]                               542 kB/s 19s64% [20 gcc-5 3,887 kB/6,596 kB 59%]                               542 kB/s 18s65% [20 gcc-5 4,212 kB/6,596 kB 64%]                               542 kB/s 18s66% [20 gcc-5 4,552 kB/6,596 kB 69%]                               542 kB/s 17s67% [20 gcc-5 4,907 kB/6,596 kB 74%]                               542 kB/s 17s68% [20 gcc-5 5,237 kB/6,596 kB 79%]                               542 kB/s 16s69% [20 gcc-5 5,569 kB/6,596 kB 84%]                               599 kB/s 14s70% [20 gcc-5 5,888 kB/6,596 kB 89%]                               599 kB/s 13s71% [20 gcc-5 6,239 kB/6,596 kB 95%]                               599 kB/s 13s73% [Working]                                                      599 kB/s 12s                                                                               Get:21 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 libstdc++-5-dev amd64 5.4.1-2ubuntu1~14.04 [1,252 kB]
+73% [21 libstdc++-5-dev 12.6 kB/1,252 kB 1%]                       599 kB/s 12s74% [21 libstdc++-5-dev 205 kB/1,252 kB 16%]                       599 kB/s 12s75% [21 libstdc++-5-dev 543 kB/1,252 kB 43%]                       599 kB/s 11s77% [21 libstdc++-5-dev 977 kB/1,252 kB 78%]                       599 kB/s 10s78% [Connecting to ppa.launchpad.net (91.189.95.83)]               599 kB/s 10s                                                                               Get:22 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty/main amd64 g++-5 amd64 5.4.1-2ubuntu1~14.04 [6,284 kB]
+79% [22 g++-5 12.6 kB/6,284 kB 0%]                                 599 kB/s 10s79% [22 g++-5 194 kB/6,284 kB 3%]                                  599 kB/s 10s80% [22 g++-5 407 kB/6,284 kB 6%]                                   599 kB/s 9s81% [22 g++-5 681 kB/6,284 kB 11%]                                  599 kB/s 9s82% [22 g++-5 953 kB/6,284 kB 15%]                                  599 kB/s 8s83% [22 g++-5 1,234 kB/6,284 kB 20%]                                574 kB/s 8s83% [22 g++-5 1,428 kB/6,284 kB 23%]                                574 kB/s 8s84% [22 g++-5 1,578 kB/6,284 kB 25%]                                574 kB/s 8s84% [22 g++-5 1,705 kB/6,284 kB 27%]                                574 kB/s 7s84% [22 g++-5 1,827 kB/6,284 kB 29%]                                574 kB/s 7s85% [22 g++-5 1,960 kB/6,284 kB 31%]                                574 kB/s 7s85% [22 g++-5 2,112 kB/6,284 kB 34%]                                574 kB/s 7s86% [22 g++-5 2,282 kB/6,284 kB 36%]                                574 kB/s 6s87% [22 g++-5 2,468 kB/6,284 kB 39%]                                574 kB/s 6s87% [22 g++-5 2,641 kB/6,284 kB 42%]                                574 kB/s 6s88% [22 g++-5 2,805 kB/6,284 kB 45%]                                574 kB/s 6s88% [22 g++-5 2,974 kB/6,284 kB 47%]                                574 kB/s 5s89% [22 g++-5 3,117 kB/6,284 kB 50%]                               313 kB/s 10s89% [22 g++-5 3,271 kB/6,284 kB 52%]                                313 kB/s 9s90% [22 g++-5 3,444 kB/6,284 kB 55%]                                313 kB/s 9s90% [22 g++-5 3,632 kB/6,284 kB 58%]                                313 kB/s 8s91% [22 g++-5 3,841 kB/6,284 kB 61%]                                313 kB/s 7s92% [22 g++-5 4,065 kB/6,284 kB 65%]                                313 kB/s 7s93% [22 g++-5 4,304 kB/6,284 kB 68%]                                313 kB/s 6s93% [22 g++-5 4,497 kB/6,284 kB 72%]                                313 kB/s 5s94% [22 g++-5 4,709 kB/6,284 kB 75%]                                313 kB/s 5s95% [22 g++-5 4,956 kB/6,284 kB 79%]                                313 kB/s 4s96% [22 g++-5 5,201 kB/6,284 kB 83%]                                313 kB/s 3s96% [22 g++-5 5,404 kB/6,284 kB 86%]                                313 kB/s 2s97% [22 g++-5 5,572 kB/6,284 kB 89%]                                409 kB/s 1s97% [22 g++-5 5,731 kB/6,284 kB 91%]                                409 kB/s 1s98% [22 g++-5 5,907 kB/6,284 kB 94%]                                409 kB/s 0s98% [22 g++-5 6,097 kB/6,284 kB 97%]                                409 kB/s 0s100% [Working]                                                      409 kB/s 0s                                                                               Fetched 24.4 MB in 50s (480 kB/s)
+Selecting previously unselected package gcc-7-base:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120498 files and directories currently installed.)
+Preparing to unpack .../gcc-7-base_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking gcc-7-base:amd64 (7.2.0-1ubuntu1~14.04) ...
+Processing triggers for ccache (3.1.9-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Setting up gcc-7-base:amd64 (7.2.0-1ubuntu1~14.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120505 files and directories currently installed.)
+Preparing to unpack .../libgcc1_1%3a7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libgcc1:amd64 (1:7.2.0-1ubuntu1~14.04) over (1:4.9.3-0ubuntu4) ...
+Setting up libgcc1:amd64 (1:7.2.0-1ubuntu1~14.04) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.13) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120505 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (7.2.0-1ubuntu1~14.04) over (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libstdc++6:amd64 (7.2.0-1ubuntu1~14.04) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.13) ...
+Selecting previously unselected package gcc-5-base:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120506 files and directories currently installed.)
+Preparing to unpack .../gcc-5-base_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking gcc-5-base:amd64 (5.4.1-2ubuntu1~14.04) ...
+Selecting previously unselected package libasan2:amd64.
+Preparing to unpack .../libasan2_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking libasan2:amd64 (5.4.1-2ubuntu1~14.04) ...
+Preparing to unpack .../libatomic1_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libatomic1:amd64 (7.2.0-1ubuntu1~14.04) over (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../libcc1-0_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Selecting previously unselected package libcilkrts5:amd64.
+Preparing to unpack .../libcilkrts5_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libcilkrts5:amd64 (7.2.0-1ubuntu1~14.04) ...
+Preparing to unpack .../libgomp1_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libgomp1:amd64 (7.2.0-1ubuntu1~14.04) over (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libisl15:amd64.
+Preparing to unpack .../libisl15_0.15-3~14.04_amd64.deb ...
+Unpacking libisl15:amd64 (0.15-3~14.04) ...
+Preparing to unpack .../libitm1_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libitm1:amd64 (7.2.0-1ubuntu1~14.04) over (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../liblsan0_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking liblsan0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Preparing to unpack .../libmpfr4_3.1.3-1~14.04_amd64.deb ...
+Unpacking libmpfr4:amd64 (3.1.3-1~14.04) over (3.1.2-1) ...
+Selecting previously unselected package libmpx0:amd64.
+Preparing to unpack .../libmpx0_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking libmpx0:amd64 (5.4.1-2ubuntu1~14.04) ...
+Preparing to unpack .../libquadmath0_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (7.2.0-1ubuntu1~14.04) over (4.8.4-2ubuntu1~14.04.3) ...
+Preparing to unpack .../libtsan0_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libtsan0:amd64 (7.2.0-1ubuntu1~14.04) over (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libubsan0:amd64.
+Preparing to unpack .../libubsan0_7.2.0-1ubuntu1~14.04_amd64.deb ...
+Unpacking libubsan0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Selecting previously unselected package cpp-5.
+Preparing to unpack .../cpp-5_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking cpp-5 (5.4.1-2ubuntu1~14.04) ...
+Selecting previously unselected package libgcc-5-dev:amd64.
+Preparing to unpack .../libgcc-5-dev_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking libgcc-5-dev:amd64 (5.4.1-2ubuntu1~14.04) ...
+Selecting previously unselected package gcc-5.
+Preparing to unpack .../gcc-5_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking gcc-5 (5.4.1-2ubuntu1~14.04) ...
+Selecting previously unselected package libstdc++-5-dev:amd64.
+Preparing to unpack .../libstdc++-5-dev_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking libstdc++-5-dev:amd64 (5.4.1-2ubuntu1~14.04) ...
+Selecting previously unselected package g++-5.
+Preparing to unpack .../g++-5_5.4.1-2ubuntu1~14.04_amd64.deb ...
+Unpacking g++-5 (5.4.1-2ubuntu1~14.04) ...
+Processing triggers for ccache (3.1.9-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up gcc-5-base:amd64 (5.4.1-2ubuntu1~14.04) ...
+Setting up libasan2:amd64 (5.4.1-2ubuntu1~14.04) ...
+Setting up libatomic1:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libcc1-0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libcilkrts5:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libgomp1:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libisl15:amd64 (0.15-3~14.04) ...
+Setting up libitm1:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up liblsan0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libmpfr4:amd64 (3.1.3-1~14.04) ...
+Setting up libmpx0:amd64 (5.4.1-2ubuntu1~14.04) ...
+Setting up libquadmath0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libtsan0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up libubsan0:amd64 (7.2.0-1ubuntu1~14.04) ...
+Setting up cpp-5 (5.4.1-2ubuntu1~14.04) ...
+Setting up libgcc-5-dev:amd64 (5.4.1-2ubuntu1~14.04) ...
+Setting up gcc-5 (5.4.1-2ubuntu1~14.04) ...
+Setting up libstdc++-5-dev:amd64 (5.4.1-2ubuntu1~14.04) ...
+Setting up g++-5 (5.4.1-2ubuntu1~14.04) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.13) ...
+
+travis_time:end:0c7d8edb:start=1517119770242573308,finish=1517119827078241617,duration=56835668309[0K
+[32;1mThe command "sudo apt-get install gcc-5 g++-5" exited with 0.[0m
+travis_time:start:26f2dfa2[0K$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /usr/bin/g++ g++ /usr/bin/g++-5
+update-alternatives: using /usr/bin/gcc-5 to provide /usr/bin/gcc (gcc) in auto mode
+
+travis_time:end:26f2dfa2:start=1517119827083260110,finish=1517119827105451806,duration=22191696[0K
+[32;1mThe command "sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /usr/bin/g++ g++ /usr/bin/g++-5" exited with 0.[0m
+travis_time:start:078820b5[0K$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 1
+update-alternatives: warning: forcing reinstallation of alternative /usr/bin/gcc-5 because link group gcc is broken
+
+travis_time:end:078820b5:start=1517119827110423400,finish=1517119827131229814,duration=20806414[0K
+[32;1mThe command "sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 1" exited with 0.[0m
+travis_time:start:0b6bd310[0K$ cd $REPO_ROOT/P2/linux/
+
+travis_time:end:0b6bd310:start=1517119827136345314,finish=1517119827140106316,duration=3761002[0K
+[32;1mThe command "cd $REPO_ROOT/P2/linux/" exited with 0.[0m
+travis_time:start:28acc814[0K$ sudo make clean
+make -C /lib/modules/4.4.0-101-generic/build M=/home/travis/build/faryabimm/OSPP3/P2/linux clean
+make[1]: Entering directory `/usr/src/linux-headers-4.4.0-101-generic'
+  CLEAN   /home/travis/build/faryabimm/OSPP3/P2/linux/Module.symvers
+make[1]: Leaving directory `/usr/src/linux-headers-4.4.0-101-generic'
+
+travis_time:end:28acc814:start=1517119827145171206,finish=1517119827674028288,duration=528857082[0K
+[32;1mThe command "sudo make clean" exited with 0.[0m
+travis_time:start:0c4b4144[0K$ sudo make
+make -C /lib/modules/4.4.0-101-generic/build M=/home/travis/build/faryabimm/OSPP3/P2/linux modules
+make[1]: Entering directory `/usr/src/linux-headers-4.4.0-101-generic'
+  CC [M]  /home/travis/build/faryabimm/OSPP3/P2/linux/vmem.o
+In file included from [01m[K./include/uapi/linux/posix_types.h:4:0[m[K,
+                 from [01m[Kinclude/uapi/linux/types.h:13[m[K,
+                 from [01m[Kinclude/linux/types.h:5[m[K,
+                 from [01m[Kinclude/linux/list.h:4[m[K,
+                 from [01m[Kinclude/linux/module.h:9[m[K,
+                 from [01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:21[m[K:
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:[m[K In function ‘[01m[Kget_process_info[m[K’:
+[01m[Kinclude/linux/stddef.h:7:14:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of ‘[01m[Kmemset[m[K’ makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+[01;32m[K              ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:121:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNULL[m[K’
+     memset(file_buffer, NULL, FILE_BUFFER_SIZE);
+[01;32m[K                         ^[m[K
+In file included from [01m[K./arch/x86/include/asm/string.h:4:0[m[K,
+                 from [01m[Kinclude/linux/string.h:17[m[K,
+                 from [01m[Kinclude/linux/bitmap.h:8[m[K,
+                 from [01m[Kinclude/linux/cpumask.h:11[m[K,
+                 from [01m[K./arch/x86/include/asm/cpumask.h:4[m[K,
+                 from [01m[K./arch/x86/include/asm/msr.h:10[m[K,
+                 from [01m[K./arch/x86/include/asm/processor.h:20[m[K,
+                 from [01m[K./arch/x86/include/asm/cpufeature.h:4[m[K,
+                 from [01m[K./arch/x86/include/asm/thread_info.h:52[m[K,
+                 from [01m[Kinclude/linux/thread_info.h:54[m[K,
+                 from [01m[K./arch/x86/include/asm/preempt.h:6[m[K,
+                 from [01m[Kinclude/linux/preempt.h:59[m[K,
+                 from [01m[Kinclude/linux/spinlock.h:50[m[K,
+                 from [01m[Kinclude/linux/seqlock.h:35[m[K,
+                 from [01m[Kinclude/linux/time.h:5[m[K,
+                 from [01m[Kinclude/linux/stat.h:18[m[K,
+                 from [01m[Kinclude/linux/module.h:10[m[K,
+                 from [01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:21[m[K:
+[01m[K./arch/x86/include/asm/string_64.h:55:7:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kint[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+ void *memset(void *s, int c, size_t n);
+[01;32m[K       ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:132:5:[m[K [01;35m[Kwarning: [m[KISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     int ret = file_read(proc_status_file, 0, file_buffer, FILE_BUFFER_SIZE);
+[01;32m[K     ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:150:5:[m[K [01;35m[Kwarning: [m[KISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     int string_cursor = 0;
+[01;32m[K     ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:161:5:[m[K [01;35m[Kwarning: [m[KISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     char temp;
+[01;32m[K     ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:169:5:[m[K [01;35m[Kwarning: [m[KISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     unsigned int vmem_max, vmem_curr;
+[01;32m[K     ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:132:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+     int ret = file_read(proc_status_file, 0, file_buffer, FILE_BUFFER_SIZE);
+[01;32m[K         ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:118:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kline[m[K’ [-Wunused-variable]
+     char path[40], line[500], name[50], file_buffer[FILE_BUFFER_SIZE];
+[01;32m[K                    ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:[m[K In function ‘[01m[K_TimerHandler[m[K’:
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:210:5:[m[K [01;35m[Kwarning: [m[KISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     int pid, i;
+[01;32m[K     ^[m[K
+In file included from [01m[K./include/uapi/linux/posix_types.h:4:0[m[K,
+                 from [01m[Kinclude/uapi/linux/types.h:13[m[K,
+                 from [01m[Kinclude/linux/types.h:5[m[K,
+                 from [01m[Kinclude/linux/list.h:4[m[K,
+                 from [01m[Kinclude/linux/module.h:9[m[K,
+                 from [01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:21[m[K:
+[01m[Kinclude/linux/stddef.h:7:14:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of ‘[01m[Kmemset[m[K’ makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+[01;32m[K              ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:213:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNULL[m[K’
+     memset(path, NULL, 40);
+[01;32m[K                  ^[m[K
+In file included from [01m[K./arch/x86/include/asm/string.h:4:0[m[K,
+                 from [01m[Kinclude/linux/string.h:17[m[K,
+                 from [01m[Kinclude/linux/bitmap.h:8[m[K,
+                 from [01m[Kinclude/linux/cpumask.h:11[m[K,
+                 from [01m[K./arch/x86/include/asm/cpumask.h:4[m[K,
+                 from [01m[K./arch/x86/include/asm/msr.h:10[m[K,
+                 from [01m[K./arch/x86/include/asm/processor.h:20[m[K,
+                 from [01m[K./arch/x86/include/asm/cpufeature.h:4[m[K,
+                 from [01m[K./arch/x86/include/asm/thread_info.h:52[m[K,
+                 from [01m[Kinclude/linux/thread_info.h:54[m[K,
+                 from [01m[K./arch/x86/include/asm/preempt.h:6[m[K,
+                 from [01m[Kinclude/linux/preempt.h:59[m[K,
+                 from [01m[Kinclude/linux/spinlock.h:50[m[K,
+                 from [01m[Kinclude/linux/seqlock.h:35[m[K,
+                 from [01m[Kinclude/linux/time.h:5[m[K,
+                 from [01m[Kinclude/linux/stat.h:18[m[K,
+                 from [01m[Kinclude/linux/module.h:10[m[K,
+                 from [01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:21[m[K:
+[01m[K./arch/x86/include/asm/string_64.h:55:7:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kint[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+ void *memset(void *s, int c, size_t n);
+[01;32m[K       ^[m[K
+In file included from [01m[K./include/uapi/linux/posix_types.h:4:0[m[K,
+                 from [01m[Kinclude/uapi/linux/types.h:13[m[K,
+                 from [01m[Kinclude/linux/types.h:5[m[K,
+                 from [01m[Kinclude/linux/list.h:4[m[K,
+                 from [01m[Kinclude/linux/module.h:9[m[K,
+                 from [01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:21[m[K:
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:[m[K In function ‘[01m[Kvmem_monitor_lkm_start[m[K’:
+[01m[Kinclude/linux/stddef.h:7:14:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of ‘[01m[Kmemset[m[K’ makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+[01;32m[K              ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:261:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNULL[m[K’
+     memset(processes, NULL, sizeof(processes));
+[01;32m[K                       ^[m[K
+In file included from [01m[K./arch/x86/include/asm/string.h:4:0[m[K,
+                 from [01m[Kinclude/linux/string.h:17[m[K,
+                 from [01m[Kinclude/linux/bitmap.h:8[m[K,
+                 from [01m[Kinclude/linux/cpumask.h:11[m[K,
+                 from [01m[K./arch/x86/include/asm/cpumask.h:4[m[K,
+                 from [01m[K./arch/x86/include/asm/msr.h:10[m[K,
+                 from [01m[K./arch/x86/include/asm/processor.h:20[m[K,
+                 from [01m[K./arch/x86/include/asm/cpufeature.h:4[m[K,
+                 from [01m[K./arch/x86/include/asm/thread_info.h:52[m[K,
+                 from [01m[Kinclude/linux/thread_info.h:54[m[K,
+                 from [01m[K./arch/x86/include/asm/preempt.h:6[m[K,
+                 from [01m[Kinclude/linux/preempt.h:59[m[K,
+                 from [01m[Kinclude/linux/spinlock.h:50[m[K,
+                 from [01m[Kinclude/linux/seqlock.h:35[m[K,
+                 from [01m[Kinclude/linux/time.h:5[m[K,
+                 from [01m[Kinclude/linux/stat.h:18[m[K,
+                 from [01m[Kinclude/linux/module.h:10[m[K,
+                 from [01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:21[m[K:
+[01m[K./arch/x86/include/asm/string_64.h:55:7:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kint[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+ void *memset(void *s, int c, size_t n);
+[01;32m[K       ^[m[K
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:[m[K In function ‘[01m[Kget_process_info[m[K’:
+[01m[K/home/travis/build/faryabimm/OSPP3/P2/linux/vmem.c:180:1:[m[K [01;35m[Kwarning: [m[Kthe frame size of 5112 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ }
+[01;32m[K ^[m[K
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/travis/build/faryabimm/OSPP3/P2/linux/vmem.mod.o
+  LD [M]  /home/travis/build/faryabimm/OSPP3/P2/linux/vmem.ko
+make[1]: Leaving directory `/usr/src/linux-headers-4.4.0-101-generic'
+
+travis_time:end:0c4b4144:start=1517119827678982878,finish=1517119828847188297,duration=1168205419[0K
+[32;1mThe command "sudo make" exited with 0.[0m
+travis_time:start:0061bf60[0K$ sudo lsmod
+Module                  Size  Used by
+ip6table_filter        16384  1 
+ip6_tables             28672  1 ip6table_filter
+ipt_MASQUERADE         16384  1 
+nf_nat_masquerade_ipv4    16384  1 ipt_MASQUERADE
+nf_conntrack_netlink    36864  0 
+nfnetlink              16384  2 nf_conntrack_netlink
+xfrm_user              32768  1 
+xfrm_algo              16384  1 xfrm_user
+iptable_nat            16384  1 
+nf_conntrack_ipv4      16384  2 
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+nf_nat_ipv4            16384  1 iptable_nat
+xt_addrtype            16384  2 
+iptable_filter         16384  1 
+ip_tables              24576  2 iptable_filter,iptable_nat
+xt_conntrack           16384  1 
+x_tables               36864  7 ip6table_filter,ip_tables,ipt_MASQUERADE,xt_conntrack,iptable_filter,ip6_tables,xt_addrtype
+nf_nat                 24576  2 nf_nat_ipv4,nf_nat_masquerade_ipv4
+nf_conntrack          102400  6 nf_nat,nf_nat_ipv4,xt_conntrack,nf_nat_masquerade_ipv4,nf_conntrack_netlink,nf_conntrack_ipv4
+br_netfilter           24576  0 
+bridge                126976  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 stp,bridge
+overlay                49152  0 
+dm_crypt               28672  0 
+binfmt_misc            20480  1 
+ppdev                  20480  0 
+input_leds             16384  0 
+serio_raw              16384  0 
+parport_pc             36864  0 
+pvpanic                16384  0 
+parport                49152  2 ppdev,parport_pc
+8250_fintek            16384  0 
+mac_hid                16384  0 
+i2c_piix4              24576  0 
+btrfs                 966656  0 
+xor                    24576  1 btrfs
+raid6_pq              102400  1 btrfs
+crct10dif_pclmul       16384  0 
+crc32_pclmul           16384  0 
+ghash_clmulni_intel    16384  0 
+aesni_intel           167936  0 
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+glue_helper            16384  1 aesni_intel
+ablk_helper            16384  1 aesni_intel
+cryptd                 20480  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+psmouse               131072  0 
+virtio_scsi            20480  1 
+
+travis_time:end:0061bf60:start=1517119828852195837,finish=1517119828863531214,duration=11335377[0K
+[32;1mThe command "sudo lsmod" exited with 0.[0m
+travis_time:start:080c7b70[0K$ sudo insmod vmem.ko
+
+travis_time:end:080c7b70:start=1517119828869160480,finish=1517119828879664429,duration=10503949[0K
+[32;1mThe command "sudo insmod vmem.ko" exited with 0.[0m
+travis_time:start:0b142917[0K$ sudo lsmod
+Module                  Size  Used by
+vmem                  278528  0 
+ip6table_filter        16384  1 
+ip6_tables             28672  1 ip6table_filter
+ipt_MASQUERADE         16384  1 
+nf_nat_masquerade_ipv4    16384  1 ipt_MASQUERADE
+nf_conntrack_netlink    36864  0 
+nfnetlink              16384  2 nf_conntrack_netlink
+xfrm_user              32768  1 
+xfrm_algo              16384  1 xfrm_user
+iptable_nat            16384  1 
+nf_conntrack_ipv4      16384  2 
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+nf_nat_ipv4            16384  1 iptable_nat
+xt_addrtype            16384  2 
+iptable_filter         16384  1 
+ip_tables              24576  2 iptable_filter,iptable_nat
+xt_conntrack           16384  1 
+x_tables               36864  7 ip6table_filter,ip_tables,ipt_MASQUERADE,xt_conntrack,iptable_filter,ip6_tables,xt_addrtype
+nf_nat                 24576  2 nf_nat_ipv4,nf_nat_masquerade_ipv4
+nf_conntrack          102400  6 nf_nat,nf_nat_ipv4,xt_conntrack,nf_nat_masquerade_ipv4,nf_conntrack_netlink,nf_conntrack_ipv4
+br_netfilter           24576  0 
+bridge                126976  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 stp,bridge
+overlay                49152  0 
+dm_crypt               28672  0 
+binfmt_misc            20480  1 
+ppdev                  20480  0 
+input_leds             16384  0 
+serio_raw              16384  0 
+parport_pc             36864  0 
+pvpanic                16384  0 
+parport                49152  2 ppdev,parport_pc
+8250_fintek            16384  0 
+mac_hid                16384  0 
+i2c_piix4              24576  0 
+btrfs                 966656  0 
+xor                    24576  1 btrfs
+raid6_pq              102400  1 btrfs
+crct10dif_pclmul       16384  0 
+crc32_pclmul           16384  0 
+ghash_clmulni_intel    16384  0 
+aesni_intel           167936  0 
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+glue_helper            16384  1 aesni_intel
+ablk_helper            16384  1 aesni_intel
+cryptd                 20480  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+psmouse               131072  0 
+virtio_scsi            20480  1 
+
+travis_time:end:0b142917:start=1517119828885160275,finish=1517119828897758538,duration=12598263[0K
+[32;1mThe command "sudo lsmod" exited with 0.[0m
+travis_time:start:0abfb056[0K$ sleep 20s
+
+travis_time:end:0abfb056:start=1517119828903270385,finish=1517119848909677755,duration=20006407370[0K
+[32;1mThe command "sleep 20s" exited with 0.[0m
+travis_time:start:0109184a[0K$ sudo dmesg | tail -50
+[  127.947585] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: scsi_tmf_0][PID: 126][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: kworker/u4:2][PID: 128][VMEM: 0][MAX_VMEM: 0]
+[  127.947587] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: bioset][PID: 129][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: kpsmoused][PID: 133][VMEM: 0][MAX_VMEM: 0]
+[  127.947589] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: kworker/u4:3][PID: 411][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: bioset][PID: 455][VMEM: 0][MAX_VMEM: 0]
+[  127.947591] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: kworker/0:1H][PID: 465][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: jbd2/sda1-8][PID: 466][VMEM: 0][MAX_VMEM: 0]
+[  127.947593] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: ext4-rsv-conver][PID: 467][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: upstart-udev-br][PID: 678][VMEM: 19492][MAX_VMEM: 19492]
+[  127.947595] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: systemd-udevd][PID: 683][VMEM: 52224][MAX_VMEM: 52224]---> [VMEM_MONITOR][PROCESS CREATED][NAME: upstart-socket-][PID: 852][VMEM: 15276][MAX_VMEM: 15276]
+[  127.947597] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dhclient][PID: 927][VMEM: 10236][MAX_VMEM: 10236]---> [VMEM_MONITOR][PROCESS CREATED][NAME: dbus-daemon][PID: 1121][VMEM: 39256][MAX_VMEM: 39256]
+[  127.947600] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1137][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: systemd-logind][PID: 1151][VMEM: 43464][MAX_VMEM: 43464]
+[  127.947601] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: upstart-file-br][PID: 1180][VMEM: 15292][MAX_VMEM: 15292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: rsyslogd][PID: 1181][VMEM: 255856][MAX_VMEM: 255856]
+[  127.947603] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: in:imuxsock][PID: 1193][VMEM: 255856][MAX_VMEM: 255856]---> [VMEM_MONITOR][PROCESS CREATED][NAME: in:imklog][PID: 1194][VMEM: 255856][MAX_VMEM: 255856]
+[  127.947605] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: rs:main][PID: 1195][VMEM: 255856][MAX_VMEM: 255856]---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1208][VMEM: 367816][MAX_VMEM: 367816]
+[  127.947606] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1210][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1211][VMEM: 367816][MAX_VMEM: 367816]
+[  127.947608] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1212][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1232][VMEM: 143936][MAX_VMEM: 143936]
+[  127.947609] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1234][VMEM: 143936][MAX_VMEM: 143936]---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1235][VMEM: 143936][MAX_VMEM: 143936]
+[  127.947611] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1236][VMEM: 143936][MAX_VMEM: 143936]---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1253][VMEM: 143936][MAX_VMEM: 143936]
+[  127.947613] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1261][VMEM: 143936][MAX_VMEM: 143936]---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1262][VMEM: 143936][MAX_VMEM: 143936]
+[  127.947614] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: google_clock_sk][PID: 1284][VMEM: 57636][MAX_VMEM: 57636]---> [VMEM_MONITOR][PROCESS CREATED][NAME: google_ip_forwa][PID: 1289][VMEM: 57620][MAX_VMEM: 57620]
+[  127.947616] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: google_accounts][PID: 1290][VMEM: 57992][MAX_VMEM: 57992]---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 1295][VMEM: 25352][MAX_VMEM: 25352]
+[  127.947618] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1297][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1298][VMEM: 367816][MAX_VMEM: 367816]
+[  127.947620] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 1300][VMEM: 25352][MAX_VMEM: 25352]---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 1304][VMEM: 25352][MAX_VMEM: 25352]
+[  127.947622] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 1305][VMEM: 25352][MAX_VMEM: 25352]---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 1308][VMEM: 25352][MAX_VMEM: 25352]
+[  127.947624] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: atd][PID: 1342][VMEM: 19152][MAX_VMEM: 19152]---> [VMEM_MONITOR][PROCESS CREATED][NAME: cron][PID: 1343][VMEM: 23668][MAX_VMEM: 23668]
+[  127.947626] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: sshd][PID: 1358][VMEM: 61396][MAX_VMEM: 61396]---> [VMEM_MONITOR][PROCESS CREATED][NAME: acpid][PID: 1362][VMEM: 4384][MAX_VMEM: 4384]
+[  127.947628] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1408][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: docker-containe][PID: 1410][VMEM: 143936][MAX_VMEM: 143936]
+[  127.947629] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1411][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: haveged][PID: 1446][VMEM: 9492][MAX_VMEM: 9492]
+[  127.947631] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1458][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: memcached][PID: 1512][VMEM: 325408][MAX_VMEM: 325408]
+[  127.947633] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: kauditd][PID: 1516][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: memcached][PID: 1518][VMEM: 325408][MAX_VMEM: 325408]
+[  127.947635] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: memcached][PID: 1519][VMEM: 325408][MAX_VMEM: 325408]---> [VMEM_MONITOR][PROCESS CREATED][NAME: memcached][PID: 1520][VMEM: 325408][MAX_VMEM: 325408]
+[  127.947637] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: memcached][PID: 1521][VMEM: 325408][MAX_VMEM: 325408]---> [VMEM_MONITOR][PROCESS CREATED][NAME: memcached][PID: 1522][VMEM: 325408][MAX_VMEM: 325408]
+[  127.947638] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1527][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1528][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947640] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1529][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1530][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947642] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1531][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1532][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947643] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1533][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1534][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947645] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1535][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1538][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947647] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: dockerd][PID: 1571][VMEM: 367816][MAX_VMEM: 367816]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1615][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947649] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1616][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1617][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947650] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1618][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1619][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947652] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1625][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1626][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947653] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1627][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1628][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947655] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1633][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1797][VMEM: 788292][MAX_VMEM: 788292]
+[  127.947657] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: mysqld][PID: 1825][VMEM: 788292][MAX_VMEM: 788292]---> [VMEM_MONITOR][PROCESS CREATED][NAME: kworker/1:1H][PID: 1872][VMEM: 0][MAX_VMEM: 0]
+[  127.947659] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: postgres][PID: 1909][VMEM: 152408][MAX_VMEM: 152408]---> [VMEM_MONITOR][PROCESS CREATED][NAME: postgres][PID: 1911][VMEM: 152408][MAX_VMEM: 152408]
+[  127.947660] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: postgres][PID: 1912][VMEM: 152408][MAX_VMEM: 152408]---> [VMEM_MONITOR][PROCESS CREATED][NAME: postgres][PID: 1913][VMEM: 152408][MAX_VMEM: 152408]
+[  127.947662] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: postgres][PID: 1914][VMEM: 153248][MAX_VMEM: 153248]---> [VMEM_MONITOR][PROCESS CREATED][NAME: postgres][PID: 1915][VMEM: 113200][MAX_VMEM: 113200]
+[  127.947664] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: sshguard][PID: 1968][VMEM: 15168][MAX_VMEM: 15168]---> [VMEM_MONITOR][PROCESS CREATED][NAME: sshguard][PID: 1982][VMEM: 15168][MAX_VMEM: 15168]
+[  127.947665] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: ntpd][PID: 1999][VMEM: 31468][MAX_VMEM: 31468]---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 2038][VMEM: 25352][MAX_VMEM: 25352]
+[  127.947667] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: getty][PID: 2047][VMEM: 12800][MAX_VMEM: 12800]---> [VMEM_MONITOR][PROCESS CREATED][NAME: sshd][PID: 2085][VMEM: 105660][MAX_VMEM: 105660]
+[  127.947669] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: sshd][PID: 2089][VMEM: 105660][MAX_VMEM: 105660]---> [VMEM_MONITOR][PROCESS CREATED][NAME: bash][PID: 2090][VMEM: 33756][MAX_VMEM: 33756]
+[  127.947671] ---> [VMEM_MONITOR][PROCESS CREATED][NAME: kworker/1:2][PID: 2091][VMEM: 0][MAX_VMEM: 0]---> [VMEM_MONITOR][PROCESS CREATED][NAME: sleep][PID: 6806][VMEM: 16736][MAX_VMEM: 16736]
+[  127.947705] ---> [VMEM_MONITOR][CHECK COMPLETED!]
+
+travis_time:end:0109184a:start=1517119848914634762,finish=1517119848927893016,duration=13258254[0K
+[32;1mThe command "sudo dmesg | tail -50" exited with 0.[0m
+travis_time:start:0a0dcacc[0K$ sudo modinfo vmem.ko
+filename:       /home/travis/build/faryabimm/OSPP3/P2/linux/vmem.ko
+version:        1.0
+description:    a Loadable Kernel Module (LKM) that will Monitor ALL process virtual memory
+allocation states and logs the changes in /var/log/kern.log file.
+this file can be read with dmesg bash command with super user access privilages
+
+author:         Mohammadhosein A'lami
+author:         Mohammadmahdi Faryabi
+license:        GPL
+srcversion:     4BA4AE69C174A6A952290B4
+depends:        
+vermagic:       4.4.0-101-generic SMP mod_unload modversions 
+
+travis_time:end:0a0dcacc:start=1517119848935552566,finish=1517119848944358059,duration=8805493[0K
+[32;1mThe command "sudo modinfo vmem.ko" exited with 0.[0m
+travis_time:start:16976498[0K$ sudo rmmod vmem
+
+travis_time:end:16976498:start=1517119848949226526,finish=1517119848967878427,duration=18651901[0K
+[32;1mThe command "sudo rmmod vmem" exited with 0.[0m
+travis_time:start:15b3e8f9[0K$ sudo lsmod
+Module                  Size  Used by
+ip6table_filter        16384  1 
+ip6_tables             28672  1 ip6table_filter
+ipt_MASQUERADE         16384  1 
+nf_nat_masquerade_ipv4    16384  1 ipt_MASQUERADE
+nf_conntrack_netlink    36864  0 
+nfnetlink              16384  2 nf_conntrack_netlink
+xfrm_user              32768  1 
+xfrm_algo              16384  1 xfrm_user
+iptable_nat            16384  1 
+nf_conntrack_ipv4      16384  2 
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+nf_nat_ipv4            16384  1 iptable_nat
+xt_addrtype            16384  2 
+iptable_filter         16384  1 
+ip_tables              24576  2 iptable_filter,iptable_nat
+xt_conntrack           16384  1 
+x_tables               36864  7 ip6table_filter,ip_tables,ipt_MASQUERADE,xt_conntrack,iptable_filter,ip6_tables,xt_addrtype
+nf_nat                 24576  2 nf_nat_ipv4,nf_nat_masquerade_ipv4
+nf_conntrack          102400  6 nf_nat,nf_nat_ipv4,xt_conntrack,nf_nat_masquerade_ipv4,nf_conntrack_netlink,nf_conntrack_ipv4
+br_netfilter           24576  0 
+bridge                126976  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 stp,bridge
+overlay                49152  0 
+dm_crypt               28672  0 
+binfmt_misc            20480  1 
+ppdev                  20480  0 
+input_leds             16384  0 
+serio_raw              16384  0 
+parport_pc             36864  0 
+pvpanic                16384  0 
+parport                49152  2 ppdev,parport_pc
+8250_fintek            16384  0 
+mac_hid                16384  0 
+i2c_piix4              24576  0 
+btrfs                 966656  0 
+xor                    24576  1 btrfs
+raid6_pq              102400  1 btrfs
+crct10dif_pclmul       16384  0 
+crc32_pclmul           16384  0 
+ghash_clmulni_intel    16384  0 
+aesni_intel           167936  0 
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+glue_helper            16384  1 aesni_intel
+ablk_helper            16384  1 aesni_intel
+cryptd                 20480  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+psmouse               131072  0 
+virtio_scsi            20480  1 
+
+travis_time:end:15b3e8f9:start=1517119848972032301,finish=1517119848980717677,duration=8685376[0K
+[32;1mThe command "sudo lsmod" exited with 0.[0m
+travis_time:start:106731fc[0K$ echo "DONE -----> testing phase 3 part 2 - compiling and testing kernel module"
+DONE -----> testing phase 3 part 2 - compiling and testing kernel module
+
+travis_time:end:106731fc:start=1517119848985025633,finish=1517119848988193580,duration=3167947[0K
+[32;1mThe command "echo "DONE -----> testing phase 3 part 2 - compiling and testing kernel module"" exited with 0.[0m
+travis_time:start:17f823d8[0K$ echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
+START -----> testing phase 3 part 3 - building Dragon Shell (dsh)
+
+travis_time:end:17f823d8:start=1517119848992401637,finish=1517119848995533483,duration=3131846[0K
+[32;1mThe command "echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"" exited with 0.[0m
+travis_time:start:03810c87[0K$ cd $REPO_ROOT/P3/
+
+travis_time:end:03810c87:start=1517119848999690128,finish=1517119849002933005,duration=3242877[0K
+[32;1mThe command "cd $REPO_ROOT/P3/" exited with 0.[0m
+travis_time:start:00fd0322[0K$ gcc -lpthread dragon_shell.c -o dsh
