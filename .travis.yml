@@ -27,6 +27,5 @@ script:
   - sudo rmmod vmem
   - sudo lsmod
   - echo "DONE -----> testing phase 3 part 2 - compiling and testing kernel module"
-
 after_success:
   - echo success
