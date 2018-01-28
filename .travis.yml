@@ -24,7 +24,7 @@ script:
   - echo "DONE -----> testing phase 3 part 2 - compiling and testing kernel module"
   - echo "START -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
   - cd $REPO_ROOT/P3/
-  - gcc -lpthread dragon_shell.c -o dsh
+  - gcc -lpthread dragon_shell.c
   - ls -la
   - echo "DONE -----> testing phase 3 part 3 - building Dragon Shell (dsh)"
 
